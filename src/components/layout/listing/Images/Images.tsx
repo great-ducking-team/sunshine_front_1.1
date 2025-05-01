@@ -1,16 +1,14 @@
 import React, { useState, useRef } from "react";
 import './images.css';
 import PricingBlock from "../Pricing_block/PricingBlock";
-import img1 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 1.jpg';
-import img2 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 2.jpg';
-import img3 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 3.jpg';
-import img4 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 4.jpg';
-import img5 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 5.jpg';
-import img6 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 6.jpg';
-import img7 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 6.jpg';
-import img8 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 6.jpg';
-import img9 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 6.jpg';
-import img10 from './listing_images/JDdTkXfqOOCjg1Z0pIn-0gt_JOHB6ZVREWyqXJhn_l1q8VzlXu9Qx6LCBu-aR8YPx2ipU2n7AptuwowJi0iDCOEmJsAX7kyxMzYi0FCMmsdeC6UApC3UoYLOHJ6bFUxfaTf_F0_K9KJDRlKJ_Dc2K9WdrpG7qAYdfAUJv4-PpL-E9sDCV 6.jpg';
+import img1 from './listing_images/listing_img1.jpg';
+import img2 from './listing_images/listing_img2.jpg';
+import img3 from './listing_images/listing_img3.jpg';
+import img4 from './listing_images/listing_img4.jpg';
+import img5 from './listing_images/listing_img5.jpg';
+import img6 from './listing_images/listing_img6.jpg';
+import img7 from './listing_images/listing_img6.jpg';
+import img8 from './listing_images/listing_img6.jpg';
 
 
 const CarImageGallery = () => {
