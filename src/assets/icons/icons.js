@@ -1,0 +1,13 @@
+export { default as arrowPointRight } from './arrow_line_pointing_right_thin.svg';
+export { default as logoIcon } from './logoIcon.svg';
+export { default as searchIcon } from './searchIcon.svg';
+export { default as messagesIcon } from './messagesIcon.svg';
+export { default as compareIcon } from './compareIcon.svg';
+export { default as forumIcon } from './forumIcon.svg';
+export { default as starIcon } from './starIcon.svg';
+export { default as settingsIcon } from './settingsIcon.svg';
+export { default as miniIconPro } from './miniIconPro.svg';
+export { default as locateIcon } from './locateIcon.svg';
+export { default as vkLogoBW } from './logo_vk_footer_bw.svg';
+export { default as tgLogoBW } from './logo_tg_footer_bw.svg';
+export { default as logoIconBW } from './sunshine_grey_logo.svg';

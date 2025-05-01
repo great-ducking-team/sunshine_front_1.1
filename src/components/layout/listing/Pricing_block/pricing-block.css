@@ -1,0 +1,226 @@
+.block_body {
+    width: 340px;
+    height: 540px;
+    background-color: var(--background_white);
+    box-shadow: var(--box-shadow-dolphin);
+    border-radius: 0 20px 20px 0;
+    padding: 24px;
+}
+
+.price_and_fav {
+    display: flex;
+}
+
+.price_block {
+    background-color: var(--action_color_primary);
+    width: 80%;
+    height: 44px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: var(--always_white);
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.msrp_tag {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--action_color_primary);
+    margin-bottom: 16px;
+}
+
+.suggest_price {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--light_gray);
+    margin-bottom: 16px;
+}
+
+.price_input_area {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.price_input_field {
+    width: 340px;
+    height: 30px;
+    border-radius: 12px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-style: solid;
+    border-color: var(--light_gray);
+    font-family: onest;
+}
+
+.price_input_button {
+    background-color: var(--light_gray);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 12px;
+    height: 36px;
+    width: 60px;
+    cursor: pointer;
+    margin-left: -20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.price_input_button:hover {
+    transform: scale(1.05);
+    background-color: var(--medium_gray);
+}
+
+.car_stats_list {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.car_stats_param {
+    display: flex;
+}
+
+/* .dot{
+    border-bottom: dashed rgb(224, 224, 224);
+    border-width: 2px;
+    width: 70%;
+    float: left;
+    position: relative;
+    display: block;
+    height: 12px;
+    margin: 0 5px 0 5px;
+} */
+
+.stats_list_label_a {
+    width: 100%;
+}
+
+.stats_list_label_b {
+    text-align: right;
+    width: 100%;
+}
+
+.eta_info {
+    display: flex;
+    gap: 8px;
+    color: var(--action_color_tertiary);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.delivery_status {
+    display: flex;
+    color: var(--action_color_tertiary);
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.user_infoblock {
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 19px;
+    align-items: center;
+}
+
+.user_pfp {
+    height: 40px;
+    margin-right: 16px;
+}
+
+.user_info_upper {
+    display: flex;
+    gap: 14px;
+    font-size: 14px;
+    align-content: center;
+}
+
+.user_stats {
+    font-size: 12px;
+    color: var(--medium_gray);
+}
+
+.contact_buttons {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.button_message {
+    height: 45px;
+    width: 50%;
+    background-color: var(--action_color_primary);
+    border-style: solid;
+    border-color: var(--action_color_primary);
+    color: var(--always_white);
+    border-radius: 12px 0 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: onest;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button_message:hover {
+    transform: scale(1.05) rotate(0.02deg);
+}
+
+.button_call {
+    height: 45px;
+    width: 50%;
+    background-color: var(--background_white);
+    border-style: solid;
+    border-color: var(--action_color_primary);
+    color: var(--action_color_primary);
+    border-radius: 0 12px 12px 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: onest;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button_call:hover {
+    transform: scale(1.05) rotate(0.02deg);
+}
+
+.user_notes {
+    display: flex;
+    gap: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--light_gray);
+    margin-bottom: 24px;
+}
+
+.control_panel_cluster {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 12px;
+}
+
+.control_panel_button {
+    height: 28px;
+    width: 48px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: var(--really_light_gray);
+    background-color: var(--background_white);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.control_panel_button:hover {
+    transform: translateY(-5px);
+    scale: 1.03;
+}

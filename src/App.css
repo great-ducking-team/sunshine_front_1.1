@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+:root {
+    --background_white: rgb(255, 255, 255);
+    --always_white: rgb(255,255,255);
+    --action_color_primary: rgb(20, 65, 177);
+    --action_color_secondary: rgb(255, 15, 15);
+    --action_color_tertiary: rgb(0, 185, 77);
+    --action_color_quaternary: rgb(161, 171, 197);
+    --context_yellow:rgb(255, 163, 16);
+    --context_light_blue-gray: rgb(235, 238, 244); /* Используется в полях ввода и плейсхолдерах */
+    --really_light_gray: rgb(214, 214, 214);
+    --light_gray: rgb(182, 182, 182);
+    --medium_gray: rgb(152, 152, 152);  /* Используется для информации в постах форума */
+    --medium_dark_gray: rgb(123, 123, 123); /* !!! Используется в большинстве серого текста */
+    --dark_gray: rgb(57, 57, 57); /* Используется для характеристик на странице объявления */
+    --black: rgb(0, 0, 0);
+    --black_text: rgb(0, 0, 0);
+    --black_borders: rgb(0, 0, 0);
+    --gray_borders: rgb(228, 228, 228);
+
+    --border-radius-16px: 16px;
+
+    --box-shadow-dolphin: 0px 0px 26px rgba(0, 0, 0, 0.05);
+    --box-shadow-ninja: 0px 0px 26px red;
+    --box-shadow-turtle: 0px 0px 26px red;
+
+    --font-size-100: 10px;
+    --font-size-200: 12px;
+    --font-size-300: 14px;
+    --font-size-400: 16px; /* стандарт */
+    --font-size-500: 18px;
+    --font-size-600: 20px;
+
+    
+}
+
+[data-theme="dark"] {
+    /* Тёмная тема */
+    --background_white: rgb(13, 17, 23);
+    --always_white: rgb(255,255,255);
+    --action_color_primary: rgb(10, 102, 206);
+    --action_color_secondary: rgb(255, 77, 77);
+    --action_color_tertiary: rgb(0, 185, 77);
+    --action_color_quaternary: rgb(161, 171, 197);
+    --context_yellow:rgb(255, 163, 16);
+    --context_light_blue-gray: rgb(33, 44, 65); /* Используется в полях ввода и плейсхолдерах */
+    --really_light_gray: rgb(42, 42, 56);; /*обводки*/
+    --light_gray: rgb(182, 182, 182);
+    --medium_gray: rgb(152, 152, 152);  /* Используется для информации в постах форума */
+    --medium_dark_gray: rgb(180, 180, 180); /* !!! Используется в большинстве серого текста */
+    --dark_gray: rgb(57, 57, 57); /* Используется для характеристик на странице объявления */
+    --black: rgb(0, 0, 0);
+    --black_text: rgb(255, 255, 255);
+    --black_borders: rgb(0, 0, 0);
+    --gray_borders: rgb(228, 228, 228);
+
+    --border-radius-16px: 16px;
+
+    --box-shadow-dolphin: 0px 0px 2px rgba(173, 176, 187, 0.603);
+    --box-shadow-ninja: 0px 0px 26px red;
+    --box-shadow-turtle: 0px 0px 26px red;
+
+    --font-size-100: 10px;
+    --font-size-200: 12px;
+    --font-size-300: 14px;
+    --font-size-400: 16px; /* стандарт */
+    --font-size-500: 18px;
+    --font-size-600: 20px;
+  }
+
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: Onest, Arial;
+    font-size: 16px;
+    margin: 0;
+    background-color: var(--background_white);
+    color: var(--black_text);
+    list-style-type: none;
+}
+
+a {
+    color: var(--black_text);
+    text-decoration: none;
+}
+
+textarea:focus, input:focus{
+    outline: solid;
+    outline-width: 0.15rem;
+    outline-color: var(--action_color_quaternary);
+}
+
+  ul {
+    list-style-type: none;
+  }
+    
+
+

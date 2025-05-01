@@ -1,0 +1,14 @@
+.product-list2 {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .product-list2 ul {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(240px, 1fr)); /* Фиксируем минимальную ширину 240px */
+    row-gap: 12px; /* Увеличим промежуток между карточками */
+    column-gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }

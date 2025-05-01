@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+}
+
+.layout_page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.index_page {
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 1375px;
+}
+
+.publish__grid {
+    display: flex;
+}
+
+.basic_info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.vehicle_name_header {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.about_car {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--medium_dark_gray);
+}

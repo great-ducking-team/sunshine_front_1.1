@@ -1,0 +1,94 @@
+html {
+    margin: 0;
+}
+
+.layout_page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.index_page {
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.page_title {
+    display: flex;
+    margin: 40px 0 40px 0;
+}
+
+.page_title_headers{
+    margin-right:60px;
+}
+
+.page_title_h1 {
+    font-weight: 800;
+    font-size: 26px;
+    margin: 0;
+}
+
+.page_title_link {
+    align-content:end;
+}
+
+.page_titleHowTo_link {
+    color: var(--medium_gray);
+    font-weight: 500;
+    font-size: 14px;
+}
+    .page_titleHowTo_link:hover {
+        color: var(--action_color_primary)
+    }
+
+.page_feed_title {
+    margin-bottom: 25px;
+    height: auto;
+}
+
+.feed_title {
+    font-size: 26px;
+    font-weight: 800;
+}    
+
+.index_platform {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.index_leftBar {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-right: 120px;
+}
+
+.index_rightBar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    margin-bottom: 25px;
+}
+
+.index-updateFeed{
+    display: flex;
+    justify-content: center;
+}
+
+.updateFeedButton {
+    background-color: var(--action_color_primary);
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: onest;
+    padding:12px 52px;
+    border-style: none;
+    cursor: pointer;
+    transition: opacity 0.2s, background-color 0.2s;
+}
+
+.updateFeedButton:hover {
+    opacity: 0.9;
+}
+

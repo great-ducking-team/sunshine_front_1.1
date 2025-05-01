@@ -1,0 +1,245 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.auth_background {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    opacity: 15%;
+}
+
+.card_aligner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-items: center;
+}
+
+.auth_card {
+    background-color: white;
+    box-shadow: var(--box-shadow-dolphin);
+    border-radius: 20px;
+    padding: 55px;
+    width: 320px;
+    height: 565px;
+}
+
+.auth_card_large {
+    background-color: white;
+    box-shadow: var(--box-shadow-dolphin);
+    border-radius: 20px;
+    padding: 55px;
+    width: 800px;
+    height: 460px;
+}
+
+.label_sms {
+    justify-self: center;
+    font-size: 18px;
+    color: var(--medium_dark_gray);
+    font-weight: 600;
+    margin-bottom: 52px;
+}
+
+.code_aligner {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    margin-bottom: 60px;
+}
+
+.sms_digit_input {
+    width: 95px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 58px;
+    font-weight: 700;
+    font-family: onest;
+    text-align: center;
+    color: var(--medium_dark_gray);
+    background-color: var(--context_light_blue-gray);
+    border-style: none;
+}
+
+.column_aligner {
+    display: flex;
+    width: auto;
+    margin-bottom: 60px;
+}
+
+.reg_column_a {
+    margin-right: auto;
+}
+
+.auth_logo {
+    height: 52px;
+    margin-top: -3px;
+    margin-left: -55px;
+    margin-bottom: 34px;
+}
+
+.auth_greeting {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.auth_label_login {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--medium_dark_gray);  
+  margin-bottom: 7px;
+}
+
+.auth_input {
+    border-radius: 15px;
+    border-style: none;
+    background-color: var(--context_light_blue-gray);
+    font-family: Onest;
+    font-weight: 500;
+    height: 52px;
+    width: 300px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.auth_instruments {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--medium_dark_gray);
+    margin-top: 16px;
+    margin-bottom: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.forgot_password {
+    margin-right: auto;
+}
+
+.button_cluster_aligner {
+    display: flex;
+    width: 100%;
+}
+
+.auth_login {
+    height: 46px;
+    width: 100%;
+    background-color: var(--action_color_primary);
+    color: var(--always_white);
+    font-family: Onest;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 26px;
+    cursor: pointer;
+}
+
+.reg_proceed {
+    height: 46px;
+    width: 235px;
+    background-color: var(--action_color_primary);
+    color: var(--always_white);
+    font-family: Onest;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 550;
+    margin-right: 330px;
+    cursor: pointer;
+}
+
+.reg_proceed:hover {
+    opacity: .9;
+}
+
+.auth_login:hover {
+    opacity: .9;
+}
+
+.button_labels_aligner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label_register_steps{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--action_color_primary);
+    margin-bottom: 10px;
+}
+
+.label_register_suggest {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--medium_dark_gray);
+    margin-bottom: 10px;
+}
+
+.label_register_suggest_b {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--medium_dark_gray);
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.auth_register {
+    height: 34px;
+    width: 100%;
+    font-family: Onest;
+    background-color: var(--always_white);
+    border-color: var(--action_color_primary);
+    color: var(--action_color_primary);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 26px;
+    cursor: pointer;
+}
+
+.reg_login {
+    height: 46px;
+    width: 236px;
+    font-family: Onest;
+    background-color: var(--always_white);
+    border-color: var(--medium_dark_gray);
+    color: var(--medium_dark_gray);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.auth_register:hover {
+    opacity: .9;
+}
+
+.reg_login:hover {
+    opacity: .9;
+}
+
+.link_back_to_main {
+    font-size: 13px;
+    color: var(--medium_dark_gray);
+    margin-left: 110px;
+}

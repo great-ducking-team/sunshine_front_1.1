@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import '../../../../App.css';
+
+/* Блок breadcrumbs */
+    .breadcrumbs {
+    font-family: Onest, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 26px;
+  }
+  
+  /* Элемент list внутри блока breadcrumbs */
+  .breadcrumbs__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  /* Элемент item внутри блока breadcrumbs */
+  .breadcrumbs__item {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Элемент link внутри блока breadcrumbs */
+  .breadcrumbs__link {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+  
+  .breadcrumbs__link:hover {
+    color: #004499;
+    text-decoration: underline;
+  }
+  
+  /* Элемент current внутри блока breadcrumbs */
+  .breadcrumbs__current {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Элемент separator внутри блока breadcrumbs */
+  .breadcrumbs__separator {
+    margin: 0 8px;
+    color: #999;
+    font-size: 14px;
+  }

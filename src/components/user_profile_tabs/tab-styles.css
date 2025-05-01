@@ -1,0 +1,61 @@
+/* Container */
+.tabs-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Tab List */
+  .tabs-list {
+    display: flex;
+    gap: 40px;
+    
+  }
+
+  .tabs-list::after {
+    position: relative;
+    width: 3000px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  /* Default Tab Button */
+  .tab-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Onest;
+    color: var(--black_text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Active Tab */
+  .tab-button.active {
+    border-bottom: 4px solid var(--action_color_primary);
+    color: var(--action_color_primary);
+    font-family: Onest;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* Disabled Tab */
+  .tab-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Tab Icon */
+  .tab-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Content Panel */
+  .tab-content {
+    padding: 20px;
+
+  }

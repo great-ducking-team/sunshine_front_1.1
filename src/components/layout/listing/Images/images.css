@@ -1,0 +1,156 @@
+.car-image-gallery-container {
+  display: flex;
+  gap: 16px;
+}
+
+.thumbnails-column {
+  align-self: top;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thumbnail-wrapper {
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: border-color 0.3s;
+}
+
+.thumbnail-wrapper.active {
+  border: 2px solid #1890ff;
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-image-container {
+  width: 890px;
+}
+
+
+.main-image {
+  width: 100%;
+  height: 587px;
+  object-fit: cover;
+  border-radius: 12px 0 0 12px;
+  cursor: pointer;
+}
+
+/* Полноэкранный режим */
+.fullscreen-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.925);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+
+.fullscreen-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.fullscreen-image {
+  max-width: 100%;
+  max-height: 70vh;
+  border-radius: 20px 0 20px 20px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.fullscreen-flex {
+  display: flex;
+
+}
+
+/* Лента миниатюр */
+.thumbnails-strip {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+
+  scroll-behavior: smooth;
+}
+
+.strip-thumbnail {
+  height:100px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  flex-shrink: 0;
+  transition: all 0.3s;
+}
+
+.strip-thumbnail.active {
+  border-color: #1890ff;
+  transform: scale(1.05);
+}
+
+.strip-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.strip-thumbnail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Кнопка закрытия */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+}
+
+.close-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Скрыть scrollbar для ленты миниатюр */
+.thumbnails-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.thumbnails-strip {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.pricing-block {
+  position: sticky;
+}
