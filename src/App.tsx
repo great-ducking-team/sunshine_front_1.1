@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, HashRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
@@ -17,7 +17,7 @@ function App() {
   return (
     <ThemeProvider>
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index element={<Home/>} />
           <Route path='/home' element={<Home/>} />
@@ -30,7 +30,7 @@ function App() {
           <Route path='/registerb' element={<RegisterB/>} />
           <Route path='*' element={<NoPage/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
     </ThemeProvider>
   );

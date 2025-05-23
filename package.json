@@ -1,7 +1,6 @@
 {
   "name": "sunshine",
   "version": "0.1.0",
-  "homepage": "https://great-ducking-team.github.io/sunshine_front_1.1",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
