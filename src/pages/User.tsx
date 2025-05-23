@@ -59,7 +59,7 @@ const UserPageTabs = () => {
                 <div className="user_pfp_name_status">
                     <img src={mainPfp} alt="" className="heading_pfp" />
                     <div>
-                        Евгений
+                        Разработчик
                     </div>
                     <img src={miniIconPro} alt="" className="pro_status" />
                 </div>

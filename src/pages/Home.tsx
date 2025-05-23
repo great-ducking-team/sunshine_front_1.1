@@ -18,7 +18,7 @@ export default function Home() {
               <h1 className="page_title_h1">Привезти ваш автомобиль - наша главная задача</h1>
             </div>
             <div className="page_title_link">
-              <Link to="/about" className="page_titleHowTo_link">
+              <Link to="#" className="page_titleHowTo_link">
                 <u>почему выбирают sunshine?</u>
               </Link>   
             </div>
@@ -32,11 +32,11 @@ export default function Home() {
                 </div>
               </div>
                 <ProductList/>
-                <div className='index-updateFeed'>
+                {/* <div className='index-updateFeed'>
                   <button className='updateFeedButton'>
                     Обновить подборку
                   </button>
-                </div>
+                </div> */}
             </div>
             <div className="index_rightBar">
               <ForumFeed/>

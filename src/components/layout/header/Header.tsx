@@ -57,7 +57,7 @@ const Header: React.FC = () => {
   const mockSearch = async (query: string) => {
     setIsSearching(true);
     // Имитация задержки API
-    await new Promise(resolve => setTimeout(resolve, 300));
+    await new Promise(resolve => setTimeout(resolve, 150));
     
     if (query.length > 0) {
       // Имитация результатов поиска
@@ -75,6 +75,41 @@ const Header: React.FC = () => {
           price: '3 800 000',
           year: 2018,
           image: 'https://example.com/x5.jpg'
+        },
+        {
+          id: 3,
+          title: 'Toyota Camry 2020',
+          price: '2 500 000',
+          year: 2020,
+          image: 'https://example.com/camry.jpg'
+        },
+        {
+          id: 4,
+          title: 'Toyota Camry 2020',
+          price: '2 500 000',
+          year: 2020,
+          image: 'https://example.com/camry.jpg'
+        },
+        {
+          id: 5,
+          title: 'Toyota Camry 2020',
+          price: '2 500 000',
+          year: 2020,
+          image: 'https://example.com/camry.jpg'
+        },
+        {
+          id: 6,
+          title: 'Toyota Camry 2020',
+          price: '2 500 000',
+          year: 2020,
+          image: 'https://example.com/camry.jpg'
+        },
+        {
+          id: 7,
+          title: 'Toyota Camry 2020',
+          price: '2 500 000',
+          year: 2020,
+          image: 'https://example.com/camry.jpg'
         }
       ]);
     } else {
@@ -93,7 +128,7 @@ const Header: React.FC = () => {
         setSearchResults([]);
         setShowSearchResults(false);
       }
-    }, 500);
+    }, 0);
 
     return () => clearTimeout(timer);
   }, [searchQuery]);
@@ -131,9 +166,7 @@ const menuItems: MenuItem[] = [
 ];
 
 return (
-  <header className="header">
     <div className="header__container">
-      <div className="header__aligner">
         {/* Логотип - будет заменяться на мини-версию на мобильных */}
         <Link to="/" className="header__logo">
           <img 
@@ -192,6 +225,8 @@ return (
                   <img src={icon} alt={title} className="header__nav-icon" />
                   <span className="header__nav-title">{title}</span>
                 </Link>
+                {/* <Link to={/home}>
+                </Link> */}
                 {className === 'messages' && showMessages && (
                   <div ref={messagesRef} style={{ position: 'absolute', top: '100%', right: 0, zIndex: 100 }}>
                     <MessagePopup />
@@ -209,7 +244,7 @@ return (
           <div className="header__user">
             <Link to="/user" className="header__user-link">
               <img src={miniPfp} alt="User" className="header__user-avatar" />
-              <span className="header__user-name">Олег</span>
+              <span className="header__user-name">Разработчик</span>
               <img src={miniIconPro} alt="Pro" className="header__user-status" />
             </Link>
           </div>
@@ -221,7 +256,7 @@ return (
             </div>
             <button className="header__button">Разместить объявление</button>
           </div>
-        </div>
+
         {/* Мобильное меню */}
       {isMobileMenuOpen && (
         <div className="header__mobile-menu">
@@ -256,7 +291,6 @@ return (
         </div>
       )}
       </div>
-    </header>
   );
 };
 

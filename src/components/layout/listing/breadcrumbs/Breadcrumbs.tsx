@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './breadcrumbs.css'; // Стили по БЭМ
+import './breadcrumbs.css';
 
 const Breadcrumbs = ({ items, onItemClick }) => {
   return (

@@ -1,4 +1,3 @@
-// SearchResultsPopup.tsx
 import React from 'react';
 import './search-popup.css';
 
@@ -28,7 +27,7 @@ const SearchResultsPopup: React.FC<SearchResultsPopupProps> = ({ results, onClos
         {results.length > 0 ? (
           results.map((result) => (
             <div key={result.id} className="search-result-item">
-              <img src={result.image} alt={result.title} className="search-result-image" />
+              {/* <img src={result.image} alt={result.title} className="search-result-image" /> */}
               <div className="search-result-info">
                 <h5>{result.title}</h5>
                 <p>{result.year} год · {result.price} ₽</p>

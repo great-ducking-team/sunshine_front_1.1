@@ -40,7 +40,7 @@ ul {
 
 .index_configurator_menu {
     display: flex;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 24px 30px 30px;
     margin-bottom: 25px;
     box-shadow: var(--box-shadow-dolphin);
@@ -226,6 +226,11 @@ ul {
         margin-right: 8px;
         height: 8px;
         font-weight: 700;
+    }
+
+    .configurator_result_color_img {
+        width: 22px;
+        height: 22px;
     }
 
     /* Панель конфигурации */

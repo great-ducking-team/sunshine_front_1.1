@@ -55,7 +55,7 @@ const Configurator = () => {
       brand: "Porsche",
       model: "Cayenne Turbo GT",
       generation: "III Рестайлинг (2024-2025)",
-      mileage: "5 200 км",
+      mileage: "Новый",
       year: 2024,
       engine: { displacement: "4.0", horsepower: "650", fuelType: "БЕНЗИН" },
       price: "21 900 000",
@@ -89,7 +89,7 @@ const Configurator = () => {
       year: 2021,
       engine: { displacement: "4.0", horsepower: "640", fuelType: "БЕНЗИН" },
       price: "15 800 000",
-      country: { code: "DE", name: "Германия" },
+      country: { code: "US", name: "США" },
       color: { name: "Белый", image: ColorWhite },
       isNew: false
     },
@@ -132,7 +132,7 @@ const Configurator = () => {
       brand: "Porsche",
       model: "911 Turbo S",
       generation: "992 (2019-2023)",
-      mileage: "8 900 км",
+      mileage: "Новый",
       year: 2023,
       engine: { displacement: "3.8", horsepower: "650", fuelType: "БЕНЗИН" },
       price: "19 500 000",
@@ -149,11 +149,11 @@ const Configurator = () => {
       brand: "Porsche",
       model: "Taycan Turbo",
       generation: "I Поколение (2019-2023)",
-      mileage: "6 780 км",
+      mileage: "Новый",
       year: 2023,
-      engine: { displacement: "0", horsepower: "680", fuelType: "ЭЛЕКТРО" },
+      engine: { displacement: "-", horsepower: "680", fuelType: "ЭЛЕКТРО" },
       price: "17 200 000",
-      country: { code: "DE", name: "Германия" },
+      country: { code: "US", name: "США" },
       color: { name: "Черный", image: ColorBlack },
       isNew: true
     },
@@ -166,7 +166,7 @@ const Configurator = () => {
       generation: "I Поколение (2019-2023)",
       mileage: "15 230 км",
       year: 2021,
-      engine: { displacement: "0", horsepower: "680", fuelType: "ЭЛЕКТРО" },
+      engine: { displacement: "-", horsepower: "680", fuelType: "ЭЛЕКТРО" },
       price: "14 800 000",
       country: { code: "DE", name: "Германия" },
       color: { name: "Белый", image: ColorWhite },
@@ -181,7 +181,7 @@ const Configurator = () => {
       generation: "I Поколение (2019-2023)",
       mileage: "9 450 км",
       year: 2022,
-      engine: { displacement: "0", horsepower: "680", fuelType: "ЭЛЕКТРО" },
+      engine: { displacement: "-", horsepower: "680", fuelType: "ЭЛЕКТРО" },
       price: "15 900 000",
       country: { code: "DE", name: "Германия" },
       color: { name: "Серый", image: ColorGray },
@@ -243,7 +243,7 @@ const Configurator = () => {
       brand: "BMW",
       model: "M5 Competition",
       generation: "F90 (2017-2023)",
-      mileage: "12 300 км",
+      mileage: "Новый",
       year: 2023,
       engine: { displacement: "4.4", horsepower: "625", fuelType: "БЕНЗИН" },
       price: "14 200 000",
@@ -260,11 +260,11 @@ const Configurator = () => {
       brand: "Mercedes-Benz",
       model: "G 63 AMG",
       generation: "W463 (2018-2023)",
-      mileage: "9 800 км",
+      mileage: "Новый",
       year: 2023,
       engine: { displacement: "4.0", horsepower: "585", fuelType: "БЕНЗИН" },
       price: "23 500 000",
-      country: { code: "DE", name: "Германия" },
+      country: { code: "US", name: "США" },
       color: { name: "Черный", image: ColorBlack },
       isNew: true
     },
@@ -309,7 +309,7 @@ const Configurator = () => {
       year: 2020,
       engine: { displacement: "4.0", horsepower: "585", fuelType: "БЕНЗИН" },
       price: "18 700 000",
-      country: { code: "DE", name: "Германия" },
+      country: { code: "US", name: "США" },
       color: { name: "Красный", image: ColorRed },
       isNew: false
     },
@@ -322,7 +322,7 @@ const Configurator = () => {
       brand: "Mercedes-Benz",
       model: "S 63 AMG",
       generation: "W223 (2020-2023)",
-      mileage: "7 650 км",
+      mileage: "Новый",
       year: 2023,
       engine: { displacement: "4.0", horsepower: "612", fuelType: "БЕНЗИН" },
       price: "25 800 000",
@@ -369,7 +369,7 @@ const Configurator = () => {
       brand: "Audi",
       model: "RS Q8",
       generation: "I Поколение (2019-2023)",
-      mileage: "11 200 км",
+      mileage: "Новый",
       year: 2023,
       engine: { displacement: "4.0", horsepower: "600", fuelType: "БЕНЗИН" },
       price: "15 300 000",
@@ -388,7 +388,7 @@ const Configurator = () => {
       year: 2021,
       engine: { displacement: "4.0", horsepower: "600", fuelType: "БЕНЗИН" },
       price: "13 700 000",
-      country: { code: "DE", name: "Германия" },
+      country: { code: "US", name: "США" },
       color: { name: "Черный", image: ColorBlack },
       isNew: false
     },
@@ -414,7 +414,7 @@ const Configurator = () => {
       brand: "Audi",
       model: "RS Q8",
       generation: "I Поколение (2019-2023)",
-      mileage: "8 900 км",
+      mileage: "Новый",
       year: 2023,
       engine: { displacement: "4.0", horsepower: "600", fuelType: "БЕНЗИН" },
       price: "15 800 000",
@@ -431,11 +431,11 @@ const Configurator = () => {
       brand: "Lexus",
       model: "LX 600",
       generation: "I Поколение (2021-2023)",
-      mileage: "6 500 км",
+      mileage: "Новый",
       year: 2023,
       engine: { displacement: "3.5", horsepower: "415", fuelType: "БЕНЗИН" },
       price: "12 500 000",
-      country: { code: "JP", name: "Япония" },
+      country: { code: "SK", name: "Корея" },
       color: { name: "Белый", image: ColorWhite },
       isNew: true
     },
@@ -450,7 +450,7 @@ const Configurator = () => {
       year: 2022,
       engine: { displacement: "3.5", horsepower: "415", fuelType: "БЕНЗИН" },
       price: "11 800 000",
-      country: { code: "JP", name: "Япония" },
+      country: { code: "SK", name: "Корея" },
       color: { name: "Черный", image: ColorBlack },
       isNew: false
     },
@@ -461,11 +461,11 @@ const Configurator = () => {
       brand: "Lexus",
       model: "LX 600",
       generation: "I Поколение (2021-2023)",
-      mileage: "8 300 км",
+      mileage: "Новый",
       year: 2023,
       engine: { displacement: "3.5", horsepower: "415", fuelType: "БЕНЗИН" },
       price: "12 200 000",
-      country: { code: "JP", name: "Япония" },
+      country: { code: "SK", name: "Корея" },
       color: { name: "Серый", image: ColorGray },
       isNew: true
     }
@@ -510,9 +510,9 @@ const Configurator = () => {
   // Состояние фильтров
   const [filters, setFilters] = useState({
     selectedCar: {
-      brand: { id: 1, name: "Porsche" },
-      model: { id: 1, name: "Cayenne Turbo GT" },
-      generation: { id: 1, name: "III Рестайлинг (2024-2025)" }
+      brand: { id: 0, name: "" },
+      model: { id: 0, name: "" },
+      generation: { id: 0, name: "" }
     },
     countries: [
       { code: "DE", name: "Германия", selected: true },
@@ -856,7 +856,9 @@ const Configurator = () => {
   >
     <div className="formQuiz_carBrandText">
       <div className="configuratorLabels_primary">Марка авто</div>
-      <div className="configuratorSigns_primary">{filters.selectedCar.brand.name}</div>
+      <div className="configuratorSigns_primary">
+      {filters.selectedCar.brand.id ? filters.selectedCar.brand.name : "Выберите марку"}
+    </div>
     </div>
     <img 
       className={`configurator_img_arrowdown ${dropdowns.brand ? 'rotated' : ''}`} 

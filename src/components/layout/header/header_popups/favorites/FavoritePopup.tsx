@@ -14,16 +14,12 @@ return (
                 <h1 className="favorite_popup_header_label">
                     Избранное
                 </h1>
-                <div className="favorite_popup_action">
-                    развернуть
-                </div>
-                <img src={ArrowRight} alt="" className="favorite_popup_action_img" />
             </div>
-            <div className="favorite_popup_favorites_aligner">
+            {/* <div className="favorite_popup_favorites_aligner">
                 <div className="favorite_popup_favoritebox">
                         
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 )

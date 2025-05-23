@@ -49,7 +49,7 @@ const Listing = () => {
               </u>
             </div>
           </div>
-          <img src={StatsHeader}/>
+          {/* <img src={StatsHeader}/> */}
           <img src={StatsFooter}/>
           <div>
             <h1 className="user_feed_header">

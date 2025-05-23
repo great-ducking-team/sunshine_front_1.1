@@ -15,14 +15,14 @@ const Footer = () => {
         <div className="footer_lineContent">
             <div className="footer_flex_container_aligner">
                 <div className="footer_actionLabels">
-                    <Link to="/about">О нас</Link>
-                    <Link to="/support">Помощь</Link>
-                    <Link to="/terms_and_conditions">Условия</Link>
-                    <Link to="/suggestions">Предложить улучшение</Link>
+                    <Link to="#">О нас</Link>
+                    <Link to="#">Помощь</Link>
+                    <Link to="#">Условия</Link>
+                    {/* <Link to="/suggestions">Предложить улучшение</Link>
                     <Link to="/settings">Настройки</Link>
                     <Link to="/forbusiness">Для бизнеса</Link>
-                    <Link to="/advertisement">Реклама</Link>
-                    <ThemeSwitch/>
+                    <Link to="/advertisement">Реклама</Link> */}
+                    {/* <ThemeSwitch/> */}
                 </div>
                 <div className="footer_SMIcons">
                     <a href="#">

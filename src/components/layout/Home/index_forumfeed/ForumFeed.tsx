@@ -19,7 +19,7 @@ const ForumFeed = () => {
             category="Новости"
             title="Эти запреты ПДД больше не смогут избегать самокатчики. Полный разбор"
             imageUrl={NewsImg}
-            articleUrl="/article/123"
+            articleUrl="#"
         />
         
         <ForumSection 
@@ -28,7 +28,7 @@ const ForumFeed = () => {
           lastMessage="03:17"
           onlineCount={12}
           iconColor="white"
-          sectionUrl="https://sunshineauto.ru/forum/article/1"
+          sectionUrl="#"
         />
         
         <ForumSection 
@@ -37,7 +37,7 @@ const ForumFeed = () => {
           lastMessage="01:44"
           onlineCount={44}
           iconColor="green"
-          sectionUrl="https://sunshineauto.ru/forum/article/11233"
+          sectionUrl="#"
         />
         
         <UserArticle 
@@ -47,7 +47,7 @@ const ForumFeed = () => {
             description='Вот и пришел этот долгожданный момент - g30 приехала и пора провести первую ТОшку. Из интересного, что стоит сразу отметить - расширительный бачок был установлен с браком, по крайней мере так'
             articleImageUrl={ArticleImg}
             userAvatarUrl={UserPfp}
-            articleUrl='https://sunshineauto.ru/forum/article/15044'
+            articleUrl='#'
         />
       </ul>
     </div>

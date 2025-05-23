@@ -14,10 +14,7 @@ return (
                 <h1 className="message_popup_header_label">
                     Все сообщения
                 </h1>
-                <div className="message_popup_action">
-                    развернуть
-                </div>
-                <img src={ArrowRight} alt="" className="message_popup_action_img" />
+                
             </div>
             <div className="message_popup_messages_aligner">
                 <div className="message_popup_messagebox">
@@ -75,7 +72,7 @@ return (
                         <div className="message_user_context">
                             <div className="message_user_context_a">
                                 <div className="message_user_context_name">
-                                    Дмитрий
+                                    Серега
                                 </div>
                                 <div className="message_user_context_onlineStatus">
                                     <img src={OnlineMarker} alt="" className="message_online_icon" />
